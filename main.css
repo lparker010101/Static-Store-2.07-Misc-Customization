@@ -1,0 +1,128 @@
+.topline{
+    height: 3em;
+    background-color:pink;
+    font-size: 50px;
+    font-style: oblique;
+    color:crimson;
+    padding-left: 7em;
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+
+.cakes{
+    display: flex;
+}
+
+.cakes2{
+    display: flex;
+}
+
+.boysBirthdayCake{
+    border: 3px solid crimson;
+    height: 17em;
+    width: 15em;
+    margin-left: 13em;
+    margin-top: 1em;
+    background-color: pink;
+    font-size: 20px;
+    font-style:inherit;
+    text-align: center;
+    color: purple;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 5em;
+}
+
+.girlsBirthdayCake{
+    border: 3px solid crimson;
+    height: 17em;
+    width: 15em;
+    margin-left: 1em;
+    margin-top: 1em;
+    background-color:pink;
+    font-size: 20px;
+    font-style:inherit;
+    text-align: center;
+    color: purple;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 5em;
+}
+
+.weddingCake{
+    border: 3px solid crimson;
+    height: 15em;
+    width: 15em;
+    background-color: pink;
+    font-size: 20px;
+    font-style:inherit;
+    text-align: center;
+    color: purple;
+    margin-left: 13em;
+    margin-top: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 5em;
+}
+
+.babyShowerCakes{
+        border: 3px solid crimson;
+        height: 15em;
+        width: 15em;
+        background-color: pink;
+        font-size: 20px;
+        font-style:inherit;
+        text-align: center;
+        color: purple;
+        margin-left: 1em;
+        margin-top: 3em;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 5em;
+}
+
+.contactUs{
+    border: 3px solid crimson;
+    height: 1em;
+    width: 3em;
+    background-color:whitesmoke;
+    font-size: 150px;
+    font-style:normal;
+    color: rebeccapurple;
+    padding-left: 7em;
+    margin-top: -1em;
+}
+
+.boysPicture{
+    max-width: 75%;
+    max-height: 75%
+}
+
+.girlsPicture{
+    max-width: 85%;
+    max-height: 65%
+}
+
+.weddingPicture{
+    max-width: 85%;
+    max-height: 100%
+}
+
+.babyPicture{
+    max-width: 75%;
+    max-height: 65%
+}
+
+.bottomLine{
+    height: 1em;
+    width: 100%;
+    background-color:black;
+    margin-top: 2em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+

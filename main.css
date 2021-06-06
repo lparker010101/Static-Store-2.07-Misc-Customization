@@ -1,12 +1,103 @@
+/*Navigation Menu*/
+.contactUs{
+    border: 3px solid crimson;
+    height: 1em;
+    width: 3em;
+    background-color:whitesmoke;
+    font-size: 150px;
+    font-style:normal;
+    color: rebeccapurple;
+    padding-left: 7em;
+    margin-top: -1em;
+}
+
+#search {
+    border: 1px solid black;
+    height: 20px;
+    width: 7em;
+    background-color: whitesmoke;
+    font-size: 25px;
+    font-style: normal;
+    color: black;
+    float: right;
+    border-radius: 0.2em;
+    letter-spacing: 0.3em;
+    text-align:center;
+}
+
+.buttonGallery {
+    float: right;
+    border-radius: .02em;
+    background-color: whitesmoke;
+    letter-spacing: 0.3em;
+    margin-right: 1em;
+    border-radius: 0.6em;
+    color:red;
+    box-shadow: royalblue;
+    transition: ease-out 0.3s;
+    } 
+    
+.buttonGallery:hover {
+    box-shadow: inset 100px 0 0 0 lightblue;
+}
+
+.buttonPricing {
+    float: right;
+    border-radius: .02em;
+    background-color: whitesmoke;
+    letter-spacing: 0.3em;
+    margin-right: 1em;
+    border-radius: 0.6em;
+    color:red;
+}
+
+.buttonPricing:hover {
+    box-shadow: inset 100px 0 0 0 lightblue;
+}
+
+.buttonAboutUs {
+    float: right;
+    border-radius: .02em;
+    background-color: whitesmoke;
+    letter-spacing: 0.3em;
+    margin-right: 1em;
+    border-radius: 0.6em;
+    color:red;
+}
+
+.buttonAboutUs:hover {
+    box-shadow: inset 100px 0 0 0 lightblue;
+}
+
+.buttonContactUs {
+    float: right;
+    border-radius: .02em;
+    background-color: whitesmoke;
+    letter-spacing: 0.3em;
+    margin-right: 1em;
+    border-radius: 0.6em;
+    color:red;
+}
+
+.buttonContactUs:hover {
+    box-shadow: inset 150px 0 0 0 lightblue;
+}
+
 .topline{
-    height: 3em;
+    height: 10em;
     background-color:pink;
-    font-size: 50px;
+    font-size: 10px;
     font-style: oblique;
     color:crimson;
     padding-left: 7em;
-    margin-top: -1em;
-    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 8em;
+    color: crimson;
+    text-align:initial;
+    margin-top: 0em;
+    letter-spacing: 5px;
 }
 
 .cakes{
@@ -19,6 +110,7 @@
 
 .boysBirthdayCake{
     border: 3px solid crimson;
+    border-radius: 1em;
     height: 17em;
     width: 15em;
     margin-left: 13em;
@@ -27,6 +119,7 @@
     font-size: 20px;
     font-style:inherit;
     text-align: center;
+    letter-spacing: 1px;
     color: purple;
     padding-left: 2em;
     padding-right: 2em;
@@ -35,6 +128,7 @@
 
 .girlsBirthdayCake{
     border: 3px solid crimson;
+    border-radius: 1em;
     height: 17em;
     width: 15em;
     margin-left: 1em;
@@ -43,6 +137,7 @@
     font-size: 20px;
     font-style:inherit;
     text-align: center;
+    letter-spacing: 1px;
     color: purple;
     padding-left: 2em;
     padding-right: 2em;
@@ -51,12 +146,14 @@
 
 .weddingCake{
     border: 3px solid crimson;
+    border-radius: 1em;
     height: 15em;
     width: 15em;
     background-color: pink;
     font-size: 20px;
     font-style:inherit;
     text-align: center;
+    letter-spacing: 1px;
     color: purple;
     margin-left: 13em;
     margin-top: 3em;
@@ -67,30 +164,20 @@
 
 .babyShowerCakes{
         border: 3px solid crimson;
+        border-radius: 1em;
         height: 15em;
         width: 15em;
         background-color: pink;
         font-size: 20px;
         font-style:inherit;
         text-align: center;
+        letter-spacing: 1px;
         color: purple;
         margin-left: 1em;
         margin-top: 3em;
         padding-left: 2em;
         padding-right: 2em;
         padding-bottom: 5em;
-}
-
-.contactUs{
-    border: 3px solid crimson;
-    height: 1em;
-    width: 3em;
-    background-color:whitesmoke;
-    font-size: 150px;
-    font-style:normal;
-    color: rebeccapurple;
-    padding-left: 7em;
-    margin-top: -1em;
 }
 
 .boysPicture{
@@ -113,15 +200,20 @@
     max-height: 65%
 }
 
-.bottomLine{
-    height: 1em;
+/*Legal items, navigational items*/
+.footer{
+    height: 5em;
     width: 100%;
     background-color:black;
-    margin-top: 2em;
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    color: white;
+    font: 1em sans-serif;
+    margin-top: 4em;
+    list-style: none;
+    display: inline-block;
 }
+
+
 
 
 

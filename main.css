@@ -83,6 +83,7 @@
     box-shadow: inset 150px 0 0 0 lightblue;
 }
 
+/*Header*/
 .topline{
     height: 10em;
     background-color:pink;
@@ -100,6 +101,7 @@ h1 {
     letter-spacing: 5px;
 }
 
+/*Main Section*/
 .cakes{
     display: flex;
 }
@@ -209,12 +211,19 @@ h1 {
     color: white;
     font: 1em sans-serif;
     margin-top: 4em;
-    list-style: none;
-    display: inline-block;
 }
 
+.legalItems {
+    display: inline-block;
+    list-style: none;
+    color: white;
+    padding-top: 2em;
+}
 
-
+a, a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
 
 
 

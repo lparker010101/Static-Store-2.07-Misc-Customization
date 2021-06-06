@@ -1,0 +1,99 @@
+/*Header*/
+.topline{
+    height: 10em;
+    background-color:pink;
+    font-size: 10px;
+    font-style: oblique;
+    color:crimson;
+    padding-left: 7em;
+}
+
+h1 {
+    font-size: 8em;
+    color: crimson;
+    text-align:justify;
+    margin-top: 0em;
+    letter-spacing: 5px;
+}
+
+/*Main Section*/
+
+.cakes2{
+    display: flex;
+}
+
+.boysBirthdayCakes{
+    border: 3px solid crimson;
+    border-radius: 1em;
+    height: 20em;
+    width: 15em;
+    background-color: pink;
+    font-size: 20px;
+    font-style:inherit;
+    text-align: center;
+    letter-spacing: 1px;
+    color: purple;
+    margin-left: 13em;
+    margin-top: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 5em;
+}
+
+#boysBirthdayCakes2 {
+    border: 3px solid crimson;
+    border-radius: 1em;
+    height: 20em;
+    width: 15em;
+    background-color: pink;
+    font-size: 20px;
+    font-style:inherit;
+    text-align: center;
+    letter-spacing: 1px;
+    color: purple;
+    margin-left: 1em;
+    margin-top: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 5em;
+    display: inline-block;
+   
+}
+
+.characterPicture{
+    max-width: 85%;
+    max-height: 60%
+}
+
+.sportsPicture{
+    max-width: 75%;
+    max-height: 55%
+}
+
+/*Legal items, navigational items*/
+
+.footer{
+    height: 5em;
+    width: 100%;
+    background-color:black;
+    text-align: center;
+    color: white;
+    font: 1em sans-serif;
+    margin-top: 4em;
+}
+
+.legalItems {
+    display: inline-block;
+    list-style: none;
+    color: white;
+    padding-top: 2em;
+}
+
+a, a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
